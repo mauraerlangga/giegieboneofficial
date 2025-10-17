@@ -1,0 +1,70 @@
+body{
+    background-image: url('img/bganjay.png'); /* path ke gambarnya */
+    background-size: cover;   /* biar nutup seluruh layar */
+    background-repeat: no-repeat; /* biar gak ngulang */
+    background-attachment: fixed;
+}
+.wrapcardlogin{
+    height: 100%;
+    width: 100%;
+    padding-inline: 500px;
+    padding-block: 100px;
+    
+}
+.cardlogin{
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    padding-inline: 20%;
+    padding-block: 70px;
+    text-align: center;
+}
+
+.registertext{
+    font-family: 'Jersey 15', sans-serif;
+    font-size: 60px;
+    color: #586D43;
+     input::placeholder{
+        font-family: jersey 15;
+        color: gray;
+    }
+}
+
+input::placeholder {
+    color: #76573D;
+}
+
+.formregister{
+    margin-top: 20%;
+}
+
+.submit{
+     width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#username{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#password{
+     width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#address{
+     width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+input{
+    border: none;          
+    outline: none; 
+}
+
